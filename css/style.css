@@ -215,7 +215,7 @@ a {
 }
 
 .read_bt {
-    width: 110%;
+    width: 100%;
     float: left;
     background-color: #C32F2F;
     border-radius: 60px;
@@ -428,7 +428,7 @@ a {
 .touch_section{
 	width: 100%;
 	float: left;
-	background-image: url(../images/email-img.jpg);
+	/* background-image: url(../images/email-img.jpg); */
 	height: auto;
 	padding-top: 55px;
 	background-size: 100%;
@@ -440,10 +440,10 @@ a {
 	width: 100%;
 	float: left;
 	text-align: center;
-	color: #fff;
+	color: black;
 	font-size: 50pt;
     padding-bottom: 40px;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: #C32F2F 0.1em 0.1em 0.2em
 
 }
 
@@ -593,8 +593,9 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	float: left;
 	font-size: 12pt;
 	color: #000;
-	padding-top: 10px;
-	padding-right: 15px;
+	padding-top: 15px;
+	padding-right: 5px;
+    text-align: center;
 }
 .map_text{
 	padding-left: 20px;
